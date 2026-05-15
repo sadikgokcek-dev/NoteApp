@@ -85,7 +85,7 @@ return 0;
 static void PrintBanner()
 {
     Console.ForegroundColor = ConsoleColor.Cyan;
-    Console.WriteLine("=========================");
+    Console.WriteLine("=============================");
     Console.WriteLine(" NotesAPP - Redis Not Defteri");
     Console.WriteLine("=============================");
     Console.ResetColor();
@@ -147,9 +147,6 @@ static void PrintNoteSummary(Note note)
 
 static async Task AddNoteAsync(NoteService service)
 {
-    Console.WriteLine("---- YENİ NOT ----");
-
-    Console.WriteLine("Başlık: ");
     var title = Console.ReadLine()?.Trim() ?? string.Empty;
     if (string.IsNullOrWhiteSpace(title))
     {

@@ -18,3 +18,4 @@
 /Users/sadik/NotesApp/obj/Debug/net8.0/NotesApp.pdb
 /Users/sadik/NotesApp/obj/Debug/net8.0/NotesApp.genruntimeconfig.cache
 /Users/sadik/NotesApp/obj/Debug/net8.0/ref/NotesApp.dll
+/Users/sadik/NotesApp/obj/Debug/net8.0/NotesApp.sourcelink.json
