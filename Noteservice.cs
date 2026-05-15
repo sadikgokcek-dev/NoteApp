@@ -48,7 +48,7 @@ public class NoteService
             return null;
 
         return JsonSerializer.Deserialize<Note>(value!);
-        // tümm notları getirir.
+        // tümmm notları getirir.
     }
 
     public async Task<List<Note>> GetAllAsync()
@@ -80,7 +80,7 @@ public class NoteService
         if (!string.IsNullOrWhiteSpace(newTitle))
             existing.Title = newTitle;
 
-        if (newContent is not null) // icerigi bos stringe set etmeye izin ver
+        if (newContent is not null) // icerigi bos stringe set etmeye izin verir
 
             existing.Content = newContent;
 

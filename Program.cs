@@ -85,9 +85,9 @@ return 0;
 static void PrintBanner()
 {
     Console.ForegroundColor = ConsoleColor.Cyan;
-    Console.WriteLine("=============================");
+    Console.WriteLine("===========================");
     Console.WriteLine(" NotesAPP - Redis Not Defteri");
-    Console.WriteLine("=============================");
+    Console.WriteLine("===========================");
     Console.ResetColor();
     Console.WriteLine();
 
